@@ -42,20 +42,19 @@ Este proyecto es compatible con `node --run`, lo que permite ejecutar scripts de
 
 ## Cómo ejecutar el proyecto
 
-Para iniciar el proyecto en modo desarrollo, usa:
+Si tienes Node.js v22 o superior, puedes ejecutar:
 
 ```sh
 node --run dev
 ```
 
-y en otra terminal, ejecuta el servidor con:
+Para ejecutar el servidor:
 
 ```sh
-
 node --run dev:server
 ```
 
-Si deseas ejecutar directamente con `pnpm run`, puedes usar:
+Para ejecutar directamente con `pnpm run`, puedes usar:
 
 ```sh
 pnpm run dev
